@@ -100,7 +100,7 @@ const Home = () => {
         <div className="github-chart mb-4 p-4">
             <a href="https://github.com/npmxdev/" target="_blank" className="text-start h-5"><img src="https://ghchart.rshah.org/npmxdev" alt="npmdev's Github chart" /></a>
         </div>
-        <div className='rounded-full border-2 h-1 w-1'>
+        <div className='rounded-full border-2 border-slate-400 px-2'>
             <a href="#about" className='animate-pulse'><FontAwesomeIcon icon={faArrowDown} /></a>
         </div>
       </div>

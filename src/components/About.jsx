@@ -7,7 +7,7 @@ const About = () => {
             
             <div className="w-full mb-6">
                 <p className="text-lg text-black leading-relaxed">
-                Hello World! I’m <span className="font-semibold text-orange-500">Nur-hamin Pendatun Mustapha (npm)</span>, a fresh graduate with a Bachelor’s degree in Information Technology from the Philippines.
+                Hello World! I’m a fresh graduate with a Bachelor’s degree in Information Technology from the Philippines.
                 </p>
                 <p className="text-lg text-black leading-relaxed mt-4">
                 I have a strong interest in web development, software engineering, and exploring new technologies. I’m passionate about building efficient and user-friendly applications that solve real-world problems.
@@ -17,14 +17,20 @@ const About = () => {
             <div className="w-full mb-6">
                 <pre className="text-xs text-white bg-gray-900 p-4 rounded-md font-mono">
                 {`
-                    {
-                        "socials": {
-                            "Twitter": "https://twitter.com/npmdev",
-                            "GitHub": "https://github.com/npmxdev",
-                            "LinkedIn": "https://linkedin.com/in/npmdev",
-                            "Instagram": "https://instagram.com/npmdev"
-                        }
-                    }
+                    const npmdev = {
+                        name:'Nur-hamin P. Mustapha',
+                        technologies:['React', 'PHP', 'JavaScript', 'Bootstrap', 
+                        'TailwindCSS', 'MySql', 'MongoDB', 'Python', 'Linux'],
+                        hardWorker:true,
+                        quickLearner:true,
+                        problemSolver:true,
+                        hireable:function() {
+                            return(
+                                this.hardWorker&&
+                                this.problemSolver&&
+                            );
+                        };
+                    };
                 `}
                 </pre>
             </div>
