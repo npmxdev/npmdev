@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
 import Certification from './components/Certification';
+import Contact from './components/Contact';
 
 const LoadingScreen = () => {
   return (
@@ -44,13 +45,17 @@ export default function App() {
       <div>
         <div className="fixed inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
           <div className="selection:text-white cursor-crosshair selection:bg-orange-500 text-xl">
+            <h1 className="fixed left-8 top-8 font-extrabold bg-gradient-to-r from-orange-600 via-orange-500 to-orange-600 inline-block bg-clip-text text-transparent mb-3 text-3xl">
+              &lt;npmdev/&gt;
+            </h1>
             <div className="relative h-full w-full flex flex-col sm:flex-row">
               <Sidebar />
-              <div className="w-full flex flex-col justify-center lg:pl-52 sm:pl-0 overflow-hidden">
+              <div className="w-full flex flex-col justify-center overflow-hidden">
                 <Home />
                 <About />
                 <Project />
                 <Certification />
+                <Contact />
               </div>
             </div>
           </div>

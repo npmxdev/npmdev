@@ -11,11 +11,11 @@ const Home = () => {
           <img
             src="src/assets/npm.jpg"
             alt="Nur-hamin Mustapha"
-            className="shadow-md rounded-full w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-0"
+            className="shadow-md rounded-full w-28 h-28 md:w-48 md:h-48 mr-4 ml-16"
           />
           <div className="text-start md:text-start md:ml-4">
-            <p className="text-sm text-gray-700 font-semibold">Hi there! I'm</p>
-            <h1 className="text-4xl sm:text-md md:text-5xl font-bold text-gray-900">Nur-hamin Mustapha</h1>
+            <p className="text-sm text-gray-700 font-semibold">Hi there!👋 I'm</p>
+            <h1 className="text-3xl sm:text-md md:text-5xl font-bold text-orange-500">Nur-hamin Mustapha</h1>
               <p className="text-sm text-start mt-4">Technologies I have worked with:</p>
               <div className="mt-4 flex badges flex-wrap justify-center gap-2">
                 <img
@@ -93,8 +93,8 @@ const Home = () => {
         </div>
 
         <div className="mb-4 max-w-3xl">
-        <p className="text-lg text-black leading-relaxed">
-          I’m a tech enthusiast who loves bringing websites to life — and sometimes, I accidentally break them (oops!). When I’m not fixing bugs or making code run faster, you’ll find me learning something new or pretending to understand tricky algorithms while sipping coffee. If you need someone who codes, laughs, and always meets deadlines, I’m your person!
+        <p className="text-base flex justify-between text-black leading-relaxed">
+        I’m a tech enthusiast who loves building websites that run smoothly and look great 🌟 (and yes, sometimes I accidentally break them... but hey, that’s part of the fun! 🐛💥). When I’m not squashing bugs, you’ll find me diving into new tech 📚, enjoying a cup of coffee ☕, playing music 🎸🎹 and pretending to understand algorithms 🤓. Need someone who codes like a pro 💻, thinks on their feet 🚀, and brings a smile to the project? Let’s team up! 🙌
         </p>
         </div>
         <div className="github-chart mb-4 p-4">
