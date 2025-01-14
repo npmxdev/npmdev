@@ -3,10 +3,11 @@ import { FaUser, FaEnvelope, FaPhone, FaCommentDots, FaPaperPlane } from "react-
 const Contact = () => {
   return (
     <section
-      id="contact"
-      className="w-full h-auto flex items-center justify-center py-10 mb-16"
+        data-aos="fade-up" data-aos-duration="1500"
+        id="contact"
+        className="w-full h-screen flex items-center justify-center py-10"
     >
-      <div className="w-full sm:w-3/4 lg:w-2/3 bg-white md:w-full p-8 border border-orange-500 rounded-lg shadow-md">
+      <div className="w-full sm:w-3/4 lg:w-2/3 bg-white md:w-full mx-4 p-8 border border-orange-500 rounded-lg shadow-md">
         <h1 className="text-2xl font-extrabold text-orange-500 mb-4">
           /contact_me
         </h1>
@@ -72,7 +73,7 @@ const Contact = () => {
 
             <button
             type="submit"
-            className="flex items-center justify-center gap-2 px-6 py-2 bg-orange-600 text-white font-medium rounded-lg shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+            className="flex mx-auto items-center justify-center gap-2 px-6 py-2 bg-orange-600 text-white font-medium rounded-lg shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
             >
             <FaPaperPlane className="text-white" />
             Send Message

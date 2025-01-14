@@ -7,17 +7,17 @@ const Home = () => {
   return (
     <section data-aos="fade-down" data-aos-duration="2000" id="home" className="mt-16 w-full flex items-center justify-center">
       <div className="w-full sm:w-3/4 lg:w-2/3 md:w-full flex flex-col items-center justify-center text-center px-4">
-        <div className="flex flex-col md:flex-row items-center justify-center mb-2">
+        <div className="flex flex-col sm:flex-row items-center justify-center mb-2">
           <img
             src="src/assets/npm.jpg"
             alt="Nur-hamin Mustapha"
-            className="shadow-md rounded-full w-28 h-28 md:w-48 md:h-48 mr-4 ml-16"
+            className="shadow-md rounded-full w-48 h-48 md:w-48 md:h-48 md:mr-4 md:ml-16"
           />
           <div className="text-start md:text-start md:ml-4">
             <p className="text-sm text-gray-700 font-semibold">Hi there!👋 I'm</p>
             <h1 className="text-3xl sm:text-md md:text-5xl font-bold text-orange-500">Nur-hamin Mustapha</h1>
               <p className="text-sm text-start mt-4">Technologies I have worked with:</p>
-              <div className="mt-4 flex badges flex-wrap justify-center gap-2">
+              <div className="mt-4 flex badges flex-wrap lg:mr-16 justify-center gap-2">
                 <img
                   src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"
                   alt="PHP"
